@@ -15,66 +15,66 @@ In the parser, sblparser.py, I took the tokens generated from the lexer and pars
 sbl.py is used to take input from the user and put it into the lexer and parser.
 
 ## Usage
-'python sbl.py [filename]'
+`python sbl.py [filename]`
 
 ## Supported Features
 
 ### Datatypes
-Numbers: Integers and Reals ('10, 4.3, -.34, 23., -1.23e4')
+Numbers: Integers and Reals (`10, 4.3, -.34, 23., -1.23e4`)
 
-Booleans: ('True, False')
+Booleans: (`True, False`)
 
-Strings: ('\"Hello\", \'12345\', \"54 cows\"')
+Strings: (`"Hello", '12345', "54 cows"`)
 
-Lists: ('[1, 2, 3, 4], ["pie", "pasta"], ["tomato", 34.75]')
+Lists: (`[1, 2, 3, 4], ["pie", "pasta"], ["tomato", 34.75]`)
 
-Tuples: ('(1, 2, 3, 4), ("pie", "pasta"), ("tomato", 34.75)')
+Tuples: (`(1, 2, 3, 4), ("pie", "pasta"), ("tomato", 34.75)`)
 
 ### Operators
 
-'( expression )' - A parenthesized expression
+`( expression )` - A parenthesized expression
 
-'( expression1, expression2, ... )' - Tuple creation
+`( expression1, expression2, ... )` - Tuple creation
 
-'#i(tuple)' - Tuple indexing (index starts at 1)
+`#i(tuple)` - Tuple indexing (index starts at 1)
 
-'a[b]' - Indexing
+`a[b]` - Indexing
 
-'a ** b' - Exponentiation
+`a ** b` - Exponentiation
 
-'a * b' - Multiplication
+`a * b` - Multiplication
 
-'a / b' - Division
+`a / b` - Division
 
-'a div b' - Integer division
+`a div b` - Integer division
 
-'a mod b' - Modulus
+`a mod b` - Modulus
 
-'a + b' - Addition
+`a + b` - Addition
 
-'a - b' - Subtraction
+`a - b` - Subtraction
 
-'a in b' - Membership
+`a in b` - Membership
 
-'a::b' - Append a to start of b
+`a::b` - Append a to start of b
 
-'not a' - Not
+`not a` - Not
 
-'a andalso b' - And
+`a andalso b` - And
 
-'a orelse b' - Or
+`a orelse b` - Or
 
-'a < b' - Less than
+`a < b` - Less than
 
-'a <= b' - Less than or equal to
+`a <= b` - Less than or equal to
 
-'a == b' - Is equal
+`a == b` - Is equal
 
-'a <> b' - Is not equal
+`a <> b` - Is not equal
 
-'a >= b' - Greater than or equal to
+`a >= b` - Greater than or equal to
 
-'a > b' - Greater than
+`a > b` - Greater than
 
 ### Blocks
 A block is defined by an open curly bracket, the contents, and a closing curly bracket. The body of the code must be contained within a block, and only specific definitions can use a block.
