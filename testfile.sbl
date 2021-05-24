@@ -1,0 +1,16 @@
+fun foo(arr) = {
+
+  arr[0] = -1;
+  output = 1;
+
+} output;
+
+{
+
+ x = [22, 3, 1];
+
+ y = foo(x);
+
+ print(x[0]); 
+
+}
